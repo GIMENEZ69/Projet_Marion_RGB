@@ -1,0 +1,8 @@
+C:\Users\Aizen\Desktop\Build\RGB.exe.config
+C:\Users\Aizen\Desktop\Build\RGB.exe
+C:\Users\Aizen\source\repos\RGB\obj\x64\Release\RGB.Form1.resources
+C:\Users\Aizen\source\repos\RGB\obj\x64\Release\RGB.Properties.Resources.resources
+C:\Users\Aizen\source\repos\RGB\obj\x64\Release\RGB.csproj.GenerateResource.cache
+C:\Users\Aizen\source\repos\RGB\obj\x64\Release\RGB.csproj.CoreCompileInputs.cache
+C:\Users\Aizen\source\repos\RGB\obj\x64\Release\RGB.exe
+C:\Users\Aizen\source\repos\RGB\obj\x64\Release\RGB.csproj.AssemblyReference.cache

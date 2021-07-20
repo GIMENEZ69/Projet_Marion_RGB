@@ -1,0 +1,10 @@
+C:\Users\Aizen\source\repos\RGB\bin\Debug\RGB.exe.config
+C:\Users\Aizen\source\repos\RGB\bin\Debug\RGB.exe
+C:\Users\Aizen\source\repos\RGB\bin\Debug\RGB.pdb
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.Form1.resources
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.Properties.Resources.resources
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.csproj.GenerateResource.cache
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.exe
+C:\Users\Aizen\source\repos\RGB\obj\Debug\RGB.pdb
