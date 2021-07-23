@@ -34,7 +34,7 @@ Dans le Dossier Screenshots quelques captures d'ecran de l'application.
 
 ## Versions
 
-** Version Finale : 1.0**
+**Version Finale : 1.0**
 
 
 ## Autheur du projet :
