@@ -1,5 +1,5 @@
 ﻿/**
- * Titre : Changement de couleur et compteur de " Clique " + réinitialisation des compteurs.
+ * Titre : Changement de couleur + compteur de " Clique " et réinitialisation des compteurs.
  * By : GIMENEZ Robert
  * Date : 17/07/2021
  **/
@@ -16,7 +16,7 @@ namespace RGB
             InitializeComponent();
         }
 
-        // Bouton changement de couleur Rouge et initialisation du compteur.
+        // Bouton pour changement de couleur Rouge et initialisation du compteur.
         int cliqueR = 0;
         private void button1_Click(object sender, EventArgs e)
         {
@@ -25,7 +25,7 @@ namespace RGB
             nbclickRouge.Text = ""+ cliqueR;
         }
         
-        // Bouton changement de couleur Vert et initialisation du compteur.
+        // Bouton pour changement de couleur Vert et initialisation du compteur.
         int cliqueV = 0;
         private void button2_Click(object sender, EventArgs e)
         {
@@ -34,7 +34,7 @@ namespace RGB
             nbclickVert.Text = "" + cliqueV;
         }
         
-        // Bouton cangement de couleur Bleu et initialisation du compteur.
+        // Bouton pour changement de couleur Bleu et initialisation du compteur.
         int cliqueB = 0;
         private void buttonBleu_Click(object sender, EventArgs e)
         {
@@ -43,13 +43,13 @@ namespace RGB
             nbclickBleu.Text = "" + cliqueB;
         }
 
-        // Un clique dans la listBox et change a sa couleur d'origine.
+        // Un clique dans la listBox et retour à sa couleur initial.
         private void listBox1_MouseClick(object sender, MouseEventArgs e)
         {
             listBox1.BackColor = Color.White;
         }
 
-        // Bouton de remise à 0.
+        // Bouton de remise à 0 des 3 compteurs.
         private void button2_Click_1(object sender, EventArgs e)
         {
              nbclickRouge.Text = "0";
@@ -60,7 +60,7 @@ namespace RGB
              cliqueB = 0;
         }
         
-        // Bouton fermer l'application.
+        // Bouton pour fermerture de l'application.
         private void button1_Click_1(object sender, EventArgs e)
         {
             this.Close();
