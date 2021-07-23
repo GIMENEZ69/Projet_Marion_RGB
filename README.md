@@ -14,9 +14,10 @@ Et un dernier bouton qui stop et quitte l'application.
 
 Pour tester l'application :
 	- **Visual Studio**
+	
 	- **Les fichiers du Repository "Projet_Marion_RGB"**
 	
-ou simplement avec un fichier éxecutable dans le dossier "**Build**" à télécharger.
+ou un fichier éxecutable qui se trouve dans le dossier "**Build**" à [Télécharger](https://github.com/GIMENEZ69/Projet_Marion_RGB/raw/main/Build/RGB.exe)
 
 
 ## Installation :
@@ -26,8 +27,7 @@ Il n'y a rien à installer.
 
 ## Développement :
 
-Pour développer ce projet j'ai utilisé le logiciel : **Visual Studio**.
-j'ai également utilisé le langage **C#**.
+Pour réaliser ce projet j'ai utilisé le logiciel : **Visual Studio** et j'ai utilisé le langage **C#**.
 
 Dans le Dossier Screenshots quelques captures d'ecran de l'application.
 
