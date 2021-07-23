@@ -54,6 +54,9 @@
     <PlatformTarget>x64</PlatformTarget>
     <OutputPath>bin\x64\RGB\</OutputPath>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>rgb.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -100,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rgb.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
