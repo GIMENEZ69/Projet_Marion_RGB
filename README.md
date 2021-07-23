@@ -1,6 +1,6 @@
-Projet_Marion_RGB
+# Projet_Marion_RGB
 
-Pour commencer :
+## Pour commencer :
 
 Le projet consiste qu'à chaque fois que l'on clique sur un des 3 boutons de couleur ( Rouge, Vert et Bleu ),
 la couleur de ce bouton s'affiche sur une fenêtre.
@@ -11,7 +11,7 @@ Et un dernier bouton qui stop et quitte l'application.
 
 
 
-Pré-requis :
+## Pré-requis :
 
 Pour tester l'application :
 	- Visual Studio
@@ -28,7 +28,7 @@ j'ai également utilisé le langage C#.
 Dans le Dossier Screenshots quelques captures d'ecran de l'application.
 
 
-Autheur du projet :
+## Autheur du projet :
 
-	.GIMENEZ Robert
+	GIMENEZ Robert
   
