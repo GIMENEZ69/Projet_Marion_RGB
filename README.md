@@ -2,12 +2,12 @@
 
 ## Pour commencer :
 
-* Le projet consiste qu'à chaque fois que l'on clique sur un des 3 boutons de couleur ( Rouge, Vert et Bleu ),
-la couleur de ce bouton s'affiche sur une fenêtre.
+* A chaque clique sur un des 3 boutons de couleur ( Rouge, Vert et Bleu ),
+la couleur de ce bouton s'affiche dans une fenêtre.
 * Si l'on clique sur cette dernière la couleur se réinitialise ( blanc ).
-* Sous chacun des 3 boutons il y a un compteur de clique qui s'incrémente à chaque clique.
-* Un autre bouton réinitialise à 0 les 3 compteurs.
-* Et un dernier pour quitter l'application.
+* Sous chacun des 3 boutons un compteur de clique s'incrémente.
+* Un bouton réinitialise à 0 les 3 compteurs.
+* Et un dernier bouton pour quitter l'application.
 
 
 ## Pré-requis :
@@ -18,7 +18,7 @@ Pour tester l'application :
 	
 * **Les fichiers du Repository "Projet_Marion_RGB"**
 	
-ou un fichier éxecutable qui se trouve dans le dossier "**Build**" à [Télécharger](https://github.com/GIMENEZ69/Projet_Marion_RGB/raw/main/Build/RGB.exe)
+* **ou directement dans un fichier éxecutable qui se trouve dans le dossier "**Build**" à [Télécharger](https://github.com/GIMENEZ69/Projet_Marion_RGB/raw/main/Build/RGB.exe)
 
 
 ## Installation :
