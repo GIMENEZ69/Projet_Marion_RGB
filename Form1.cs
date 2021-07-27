@@ -17,51 +17,51 @@ namespace RGB
         }
 
         // Bouton pour changement de couleur Rouge et initialisation du compteur.
-        int cliqueR = 0;
-        private void button1_Click(object sender, EventArgs e)
+        int redClick = 0;
+        private void buttonRouge_Click(object sender, EventArgs e)
         {
-            listBox1.BackColor = Color.Red;
-            cliqueR++;
-            nbclickRouge.Text = ""+ cliqueR;
+            Topbox.BackColor = Color.Red;
+            redClick++;
+            NbRedClick.Text = "" + redClick;
         }
         
         // Bouton pour changement de couleur Vert et initialisation du compteur.
-        int cliqueV = 0;
-        private void button2_Click(object sender, EventArgs e)
+        int greenClick = 0;
+        private void buttonVert_Click(object sender, EventArgs e)
         {
-            listBox1.BackColor = Color.Green;
-            cliqueV++;
-            nbclickVert.Text = "" + cliqueV;
+            Topbox.BackColor = Color.Green;
+            greenClick++;
+            NbGreenClick.Text = "" + greenClick;
         }
         
         // Bouton pour changement de couleur Bleu et initialisation du compteur.
-        int cliqueB = 0;
+        int blueClick = 0;
         private void buttonBleu_Click(object sender, EventArgs e)
         {
-            listBox1.BackColor = Color.Blue;
-            cliqueB++;
-            nbclickBleu.Text = "" + cliqueB;
+            Topbox.BackColor = Color.Blue;
+            blueClick++;
+            NbBlueClick.Text = "" + blueClick;
         }
 
-        // Un clique dans la listBox et retour à sa couleur initial.
-        private void listBox1_MouseClick(object sender, MouseEventArgs e)
+        // Un clique dans la TopBox et retour à sa couleur initial.
+        private void Topbox_MouseClick(object sender, MouseEventArgs e)
         {
-            listBox1.BackColor = Color.White;
+            Topbox.BackColor = Color.White;
         }
 
         // Bouton de remise à 0 des 3 compteurs.
-        private void button2_Click_1(object sender, EventArgs e)
+        private void reset_colors_buttons_Click(object sender, EventArgs e)
         {
-             nbclickRouge.Text = "0";
-             cliqueR = 0;
-             nbclickVert.Text = "0";
-             cliqueV = 0;
-             nbclickBleu.Text = "0";
-             cliqueB = 0;
+             NbRedClick.Text = "0";
+             redClick = 0;
+             NbGreenClick.Text = "0";
+             greenClick = 0;
+             NbBlueClick.Text = "0";
+             blueClick = 0;
         }
         
         // Bouton pour fermerture de l'application.
-        private void button1_Click_1(object sender, EventArgs e)
+        private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
