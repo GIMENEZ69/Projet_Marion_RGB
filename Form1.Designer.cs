@@ -30,9 +30,9 @@ namespace RGB
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.buttonRouge = new System.Windows.Forms.Button();
-            this.buttonVert = new System.Windows.Forms.Button();
-            this.buttonBleu = new System.Windows.Forms.Button();
+            this.buttonRed = new System.Windows.Forms.Button();
+            this.buttonGreen = new System.Windows.Forms.Button();
+            this.buttonBlue = new System.Windows.Forms.Button();
             this.Topbox = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.NbRedClick = new System.Windows.Forms.TextBox();
@@ -44,41 +44,41 @@ namespace RGB
             this.reset_colors_buttons = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // buttonRouge
+            // buttonRed
             // 
-            this.buttonRouge.BackColor = System.Drawing.Color.Red;
-            this.buttonRouge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRouge.Location = new System.Drawing.Point(90, 159);
-            this.buttonRouge.Name = "buttonRouge";
-            this.buttonRouge.Size = new System.Drawing.Size(134, 79);
-            this.buttonRouge.TabIndex = 3;
-            this.buttonRouge.Text = "Rouge";
-            this.buttonRouge.UseVisualStyleBackColor = false;
-            this.buttonRouge.Click += new System.EventHandler(this.buttonRouge_Click);
+            this.buttonRed.BackColor = System.Drawing.Color.Red;
+            this.buttonRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRed.Location = new System.Drawing.Point(90, 159);
+            this.buttonRed.Name = "buttonRed";
+            this.buttonRed.Size = new System.Drawing.Size(134, 79);
+            this.buttonRed.TabIndex = 3;
+            this.buttonRed.Text = "Rouge";
+            this.buttonRed.UseVisualStyleBackColor = false;
+            this.buttonRed.Click += new System.EventHandler(this.buttonRed_Click);
             // 
-            // buttonVert
+            // buttonGreen
             // 
-            this.buttonVert.BackColor = System.Drawing.Color.Green;
-            this.buttonVert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVert.Location = new System.Drawing.Point(335, 159);
-            this.buttonVert.Name = "buttonVert";
-            this.buttonVert.Size = new System.Drawing.Size(134, 79);
-            this.buttonVert.TabIndex = 4;
-            this.buttonVert.Text = "Vert";
-            this.buttonVert.UseVisualStyleBackColor = false;
-            this.buttonVert.Click += new System.EventHandler(this.buttonVert_Click);
+            this.buttonGreen.BackColor = System.Drawing.Color.Green;
+            this.buttonGreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonGreen.Location = new System.Drawing.Point(335, 159);
+            this.buttonGreen.Name = "buttonGreen";
+            this.buttonGreen.Size = new System.Drawing.Size(134, 79);
+            this.buttonGreen.TabIndex = 4;
+            this.buttonGreen.Text = "Vert";
+            this.buttonGreen.UseVisualStyleBackColor = false;
+            this.buttonGreen.Click += new System.EventHandler(this.buttonGreen_Click);
             // 
-            // buttonBleu
+            // buttonBlue
             // 
-            this.buttonBleu.BackColor = System.Drawing.Color.Blue;
-            this.buttonBleu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBleu.Location = new System.Drawing.Point(571, 159);
-            this.buttonBleu.Name = "buttonBleu";
-            this.buttonBleu.Size = new System.Drawing.Size(134, 79);
-            this.buttonBleu.TabIndex = 5;
-            this.buttonBleu.Text = "Bleu";
-            this.buttonBleu.UseVisualStyleBackColor = false;
-            this.buttonBleu.Click += new System.EventHandler(this.buttonBleu_Click);
+            this.buttonBlue.BackColor = System.Drawing.Color.Blue;
+            this.buttonBlue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonBlue.Location = new System.Drawing.Point(571, 159);
+            this.buttonBlue.Name = "buttonBlue";
+            this.buttonBlue.Size = new System.Drawing.Size(134, 79);
+            this.buttonBlue.TabIndex = 5;
+            this.buttonBlue.Text = "Bleu";
+            this.buttonBlue.UseVisualStyleBackColor = false;
+            this.buttonBlue.Click += new System.EventHandler(this.buttonBlue_Click);
             // 
             // Topbox
             // 
@@ -190,9 +190,9 @@ namespace RGB
             this.Controls.Add(this.NbRedClick);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Topbox);
-            this.Controls.Add(this.buttonBleu);
-            this.Controls.Add(this.buttonVert);
-            this.Controls.Add(this.buttonRouge);
+            this.Controls.Add(this.buttonBlue);
+            this.Controls.Add(this.buttonGreen);
+            this.Controls.Add(this.buttonRed);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -204,9 +204,9 @@ namespace RGB
         }
 
         #endregion
-        private System.Windows.Forms.Button buttonRouge;
-        private System.Windows.Forms.Button buttonVert;
-        private System.Windows.Forms.Button buttonBleu;
+        private System.Windows.Forms.Button buttonRed;
+        private System.Windows.Forms.Button buttonGreen;
+        private System.Windows.Forms.Button buttonBlue;
         private System.Windows.Forms.ListBox Topbox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox NbRedClick;

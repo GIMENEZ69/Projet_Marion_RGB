@@ -18,7 +18,7 @@ namespace RGB
 
         // Bouton pour changement de couleur Rouge et initialisation du compteur.
         int redClick = 0;
-        private void buttonRouge_Click(object sender, EventArgs e)
+        private void buttonRed_Click(object sender, EventArgs e)
         {
             Topbox.BackColor = Color.Red;
             redClick++;
@@ -27,7 +27,7 @@ namespace RGB
         
         // Bouton pour changement de couleur Vert et initialisation du compteur.
         int greenClick = 0;
-        private void buttonVert_Click(object sender, EventArgs e)
+        private void buttonGreen_Click(object sender, EventArgs e)
         {
             Topbox.BackColor = Color.Green;
             greenClick++;
@@ -36,7 +36,7 @@ namespace RGB
         
         // Bouton pour changement de couleur Bleu et initialisation du compteur.
         int blueClick = 0;
-        private void buttonBleu_Click(object sender, EventArgs e)
+        private void buttonBlue_Click(object sender, EventArgs e)
         {
             Topbox.BackColor = Color.Blue;
             blueClick++;
