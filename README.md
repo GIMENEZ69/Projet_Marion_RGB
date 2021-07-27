@@ -18,7 +18,7 @@ Pour tester l'application :
 	
 * **Les fichiers du Repository "Projet_Marion_RGB"**
 	
-* **ou directement dans un fichier éxecutable qui se trouve dans le dossier "**Build**" à [Télécharger](https://github.com/GIMENEZ69/Projet_Marion_RGB/raw/main/Build/RGB.exe)
+* **Directement dans un fichier éxecutable qui se trouve dans le dossier "**Build**" à [Télécharger](https://github.com/GIMENEZ69/Projet_Marion_RGB/raw/main/Build/RGB.exe)**
 
 
 ## Installation :
